@@ -1,0 +1,34 @@
+print("hello\n\tWorld")         # prints to terminal and creates a newline
+				#hello
+				#	world
+
+
+
+if (conditional ):
+	<body of code>
+	<body of code>
+elif (another conditional):
+	<elif body of code>
+	<elif body of code>
+else: 
+	<body of else code>
+	<body of else code>
+
+
+
+variable = "with a variable"                	# assignment
+
+print(f"This is some text {variable}")		#prints:
+						#This is some text with a variable 
+
+
+2//3			# // is integer division rounds down
+2/3			# / is normal division returns a float
+10 % 8			# Modulus returns remainder of integer division
+
+
+int("23")		#casts a string into an integer
+
+input("Question")	#displays question and takes user input
+			#ALWAYS returns a string, will need to cast if you 
+			#need something other than a string
